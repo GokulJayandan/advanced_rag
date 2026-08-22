@@ -66,7 +66,7 @@ class StatsResponse(BaseModel):
     total_chunks: int = 0
     total_documents: int = 0
     bm25_indexed: int = 0
-    embedding_cache: dict[str, int] = Field(default_factory=dict)
+    embedding_cache: dict[str, Any] = Field(default_factory=dict)
 
 
 class DeleteResponse(BaseModel):
