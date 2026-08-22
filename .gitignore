@@ -1,0 +1,55 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*.pyc
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Databases, Indices & Vector storage
+chroma_db/
+chroma_data/
+bm25_index/
+embedding_cache/
+model_cache/
+
+# Local data & uploads
+data/
+uploads/
+eval_results/
+
+# System / IDE
+.system_generated/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter / Testing
+.ipynb_checkpoints/
+.pytest_cache/
+htmlcov/
+.coverage
+.mypy_cache/
+.ruff_cache/
+
+# Logs
+logs/
+*.log
